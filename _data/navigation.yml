@@ -1,4 +1,7 @@
 main:
+  - title: "Home"
+    url: /
+    description: "The MRSHub Home"
   - title: "Software & Code"
     url: /software/
     description: "The MRSHub software and code repository"
@@ -23,13 +26,15 @@ main:
 software:
   - title: "Software & Code"
     children:
-        - title: "Overview"
+        - title: "How to access code"
           url: /software/
         - title: "Contribute your code"
           url: /software_contribute/
 
   - title: "Software Packages"
     children:
+        - title: "COMPLETE LIST"
+          url: /software_all/
         - title: "Analysis & Quantification"
           url: /software_analysis/
         - title: "Data Simulation & Basis Set Generation"
@@ -38,15 +43,45 @@ software:
           url: /software_deid/
         - title: "Input/Output"
           url: /software_io/
-          
+        - title: "Processing"
+          url: /software_processing/
+        - title: "Reproducible Workflows"
+          url: /software_reproducible_workflows/
+        - title: "Visualization"
+          url: /software_visualization/
+
 # datasets sidebar links
 datasets:
   - title: "Data"
     children:
         - title: "Overview"
           url: /datasets/
+        - title: "How to host and organize your dataset"
+          url: /datasets_host_organize/
         - title: "Contribute your dataset"
           url: /datasets_contribute/
+        - title: "Data privacy and compliance"
+          url: /datasets_privacy/
+
+  - title: "Available datasets"
+    children:
+        - title: "Single-voxel MRS"
+          url: /datasets_svs/
+        - title: "MRSI"
+          url: /datasets_mrsi/
+        - title: "Macromolecules"
+          url: /datasets_mm/
+        - title: "Basis sets"
+          url: /datasets_basissets/
+
+# links sidebar links
+links:
+  - title: "Links"
+    children:
+    - title: "Useful Links"
+      url: /links/
+    - title: "Videos and courses"
+      url: /links_courses/
 
 # about sidebar links
 about:
